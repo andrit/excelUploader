@@ -1,7 +1,7 @@
 <IfModule rewrite_module>
  Options FollowSymLinks
  RewriteEngine On
- RewriteBase /bulkpricing/
+ RewriteBase /php/bulkpricing/
  RewriteCond %{REQUEST_FILENAME} !-f
  RewriteCond %{REQUEST_FILENAME} !-d
 	

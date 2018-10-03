@@ -60,7 +60,7 @@ class BulkPricing extends \BaseClass {
 
             if ($_SESSION["authenticated"]!='true'){    
                 $PAGE_AUTH_ROOT=$this->get_page_auth_root();
-                header("Location: " . $PAGE_AUTH_ROOT . "?app=" . $appname . "&return_url=" . urlencode("http://" . $_SERVER["HTTP_HOST"] . "/" . $path . "/"));
+                header("Location: " . $PAGE_AUTH_ROOT . "?app=" . $appname . "&return_url=" . urlencode("http://" . $_SERVER["HTTP_HOST"] . "/" . $path . "/&seo=y"));
                 exit;
             }
     }

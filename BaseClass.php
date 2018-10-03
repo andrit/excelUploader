@@ -9,9 +9,10 @@ date_default_timezone_set('America/New_York');
 *
 * @return object A single instance of this class.
 */
-
-
+//die('base hi');
 class BaseClass {
+
+
     private static $env;
     private $TEST_DATA;
     private $TEST_LIBRARY;

@@ -13,7 +13,11 @@
     <!--<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    
+    <!--
+    //TODO: create a script (pipeline or a PHP listener) to move from ../app/ui/build/.. into a local folder
+    //TODO: rename to something predictable or use regex to recognize it no matter the hash
+    -->
+    <!-- <link rel="stylesheet" href="/php/bulkpricing/app/ui/build/static/css/main.dc613683.css"> -->
     <link rel="stylesheet" href="/bulkpricing/app/ui/build/static/css/main.dc613683.css">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
